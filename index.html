@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="news.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+    <title>NEWSLETTER</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img src="sign-up-mobile.svg" class="img" alt="img">
+        </div>
+        <div class="content">
+            <div class="text">
+                <div class="header">
+                    <h1>Stay updated!</h1>
+                </div>
+                <div class="list">
+                    <p> Join 60,000+ product managers receiving monthly updates on:</p>
+                    <img src="icon-list.svg" alt=""><span>Product discovery and building what matters</span><br>
+                    <img src="icon-list.svg" alt=""><span>Measuring to ensure updates are a success</span><br>
+                    <img src="icon-list.svg" alt=""><span>And much more!</span><br>
+                </div>
+                <div class="mail">
+                    <form action="">
+                        <div class="address">
+                            <label for="mail">Email address</label>
+                            <small id="error"></small>
+                        </div>
+                        <input type="email" name="email" placeholder="email@company.com" id="mail" required>
+                        <input type="submit" value="Subscribe to monthly newsletter" id="btn" onclick="return error()">
+                    </form>
+                </div>
+            </div>
+            <div>
+                <img src="sign-up-desktop.svg" class="desktop" alt="img">
+            </div>
+        </div>
+    </div>
+    <script src="news.js"></script>
+</body>
+</html>
